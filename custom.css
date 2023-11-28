@@ -1,0 +1,155 @@
+html, body {
+    height: 100%;   
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    color: rgb(8, 8, 8);
+    font-family:'Open Sans', sans-serif;
+}  
+.navstyle{
+    background-color: #292621;
+}
+.navbar{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+main {
+    flex: 1 0 auto;
+    background-image: url('immg.jpg');   
+    -webkit-text-fill-color: #131010;
+    background-size: cover;
+    background-position: right;
+}
+.mainn{
+    background-image: url('webd.jpg');
+    opacity: 0.95;
+}
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;    
+}
+
+.color-overlay {
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+
+}
+
+footer {
+    background-image: url('footerimg.jpg');
+    
+    
+}
+
+footer a {
+    color: rgb(245, 231, 231);
+
+}
+
+footer a:hover {
+    color: #dfdfdf;
+
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
+h1{ 
+    color: #1e1c1c;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hwan{
+    background-color: #e3e2e08a;
+    border: #131010 2px;
+    text-align: center;
+    margin-top: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    color: #E7E8EA;
+    -webkit-text-stroke-color: #171616;
+    -webkit-text-stroke-width: 1px;
+}
+.card{
+    background-color: #E7E8EA;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+.btn{
+    background-color: rgb(154, 116, 89);
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(111,78,55);
+    border: none;
+}
+.btn:active{
+    background-color: rgb(111,78,55);
+    transform: translateY(4px);
+}
+.btn-outline-dark{
+    background-color: rgb(240, 246, 244);
+}
+.color-overlay{
+    min-height: 20dvh;
+}
+.container{
+    color: rgb(236, 221, 221);
+    font-size: larger;
+    animation: transitionIn 1.5s;
+    
+}
+.nav-link{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #564f4d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+} 
+.nav-link:hover{
+    background-color: rgb(111,78,55);
+} 
+.nav-link:active{
+    background-color: rgb(111,78,55);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+  
+.navbar-nav{
+    --bs-nav-link-hover-color: rgb(239 232 232 / 80%);
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-toggler{
+    background-color: #dfdfdf;
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX('-10def');
+    }
+    to{
+        opacity: 1;
+        transform: rotateX('0');
+    }
+}
+.JV{
+    
+}
